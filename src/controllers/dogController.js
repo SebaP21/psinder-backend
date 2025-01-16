@@ -50,7 +50,6 @@ export const searchDogs = async (req, res) => {
 };
 
 // dogController.js
-import Dog from "../models/dogModel.js";
 
 // Funkcja flagowania psa
 export const flagDog = async (req, res) => {

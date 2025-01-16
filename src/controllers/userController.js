@@ -231,7 +231,6 @@ export const getActivityHistory = async (req, res) => {
 };
 
 // userController.js
-import User from "../models/userModel.js";
 
 // Funkcja flagowania użytkownika
 export const flagUser = async (req, res) => {
