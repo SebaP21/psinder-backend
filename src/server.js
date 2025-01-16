@@ -6,6 +6,8 @@ import dogRoutes from "./routes/dogRoutes.js"; // Importuj dogRoutes
 import userRoutes from "./routes/userRoutes.js"; // Importuj userRoutes
 import http from "http"; // Dodajemy http, by obsługiwać WebSocket
 import { Server } from "socket.io"; // Poprawny import z 'socket.io'
+import messageRoutes from './routes/messageRoutes.js';
+
 
 dotenv.config(); // Załaduj zmienne środowiskowe z pliku .env
 
