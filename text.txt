@@ -1,0 +1,49 @@
+
+
+Funkcja wysyłania powiadomień do użytkownika, np. o nowym meczu lub wiadomości.
+Dla psów:
+Wyszukiwanie i filtrowanie psów:
+
+Endpointy do wyszukiwania psów po rasie, wieku, lokalizacji, czy zainteresowaniach.
+System rekomendacji:
+
+Funkcja proponowania psów na podstawie lokalizacji lub zainteresowań użytkownika.
+Dla wiadomości:
+Rozmowy (chat):
+
+Endpointy do zarządzania rozmowami (pobieranie listy rozmów, wiadomości w ramach danej rozmowy).
+Wsparcie WebSocket:
+
+Implementacja WebSocket do obsługi wiadomości w czasie rzeczywistym.
+Dla admina:
+Panel zarządzania:
+
+Endpointy dla admina, np. do przeglądania wszystkich użytkowników i psów, usuwania nieodpowiednich treści.
+Moderacja treści:
+
+Dodanie flagowania treści (np. zgłoszenie psa, wiadomości lub użytkownika przez innych użytkowników).
+Bezpieczeństwo:
+Limit żądań:
+
+Middleware ograniczający liczbę żądań (rate limiting) na użytkownika/IP.
+Logi:
+
+Zbieranie logów zdarzeń (np. logowanie, błędy) dla analizy.
+Dodatkowe funkcjonalności:
+Funkcja unmatch:
+
+Możliwość "rozłączenia" sparowania między użytkownikami.
+Dodanie lokalizacji użytkownika:
+
+Użytkownik mógłby podać swoją lokalizację, co ułatwiłoby dopasowanie psów i innych użytkowników.
+Statystyki:
+
+Endpointy do pobierania statystyk, np. liczba sparowań, aktywnych użytkowników.
+Co warto poprawić lub rozbudować:
+Middleware authMiddleware:
+
+Dodanie bardziej szczegółowych komunikatów błędów (np. rozróżnienie między brakiem tokena a jego nieważnością).
+Walidacja danych:
+
+Użycie biblioteki jak Joi lub express-validator do walidacji danych wejściowych.
+  Pomożesz mi to powoli zaimplementować krok po kroku? Wykonujmy każde zadanie po kolei
