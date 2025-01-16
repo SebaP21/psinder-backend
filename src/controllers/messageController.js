@@ -78,7 +78,7 @@ export const sendMessage = async (req, res) => {
 };
 
 // messageController.js
-import Message from "../models/messageModel.js";
+
 
 // Funkcja flagowania wiadomości
 export const flagMessage = async (req, res) => {
